@@ -1,4 +1,5 @@
-
+- clone & push sdl
+- setup cmake for linux
 
 
 ----------------------- Cmake usage
