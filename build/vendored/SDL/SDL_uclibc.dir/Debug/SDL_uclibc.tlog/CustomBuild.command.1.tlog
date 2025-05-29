@@ -1,0 +1,10 @@
+^C:\USERS\JOONA\DOCUMENTS\PROJECTS\OMGNE\VENDORED\SDL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joona/Documents/Projects/omgne -BC:/Users/joona/Documents/Projects/omgne/build --check-stamp-file C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

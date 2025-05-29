@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/joona/Documents/Projects/omgne/build/cmake_install.cmake",
+		"C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

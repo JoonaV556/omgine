@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\joona\Documents\Projects\omgne\build\CMakeFiles\85ba83319a8fa946f425833b6a0b71ed\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{057663E9-B4BA-368C-BCAA-AD3BD1AB2AC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

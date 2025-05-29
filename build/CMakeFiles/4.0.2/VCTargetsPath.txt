@@ -1,0 +1,1 @@
+C:/Apps/VisualStudio/Shared/MSBuild/Microsoft/VC/v170

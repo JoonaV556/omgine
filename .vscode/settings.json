@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "files.associations": {
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "xiosbase": "c"
+    }
+}

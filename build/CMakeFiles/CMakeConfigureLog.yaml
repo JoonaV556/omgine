@@ -1,0 +1,1179 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 28.5.2025 1.33.10.
+      
+      Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.74
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.8+b34f75857 for .NET Framework
+      Build started 28.5.2025 1.33.11.
+      
+      Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.60
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3az8lr"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3az8lr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3az8lr'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2730e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.12.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3az8lr\\cmTC_2730e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2730e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3az8lr\\Debug\\".
+          Creating directory "cmTC_2730e.dir\\Debug\\cmTC_2730e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2730e.dir\\Debug\\cmTC_2730e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2730e.dir\\Debug\\cmTC_2730e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2730e.dir\\Debug\\\\" /Fd"cmTC_2730e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2730e.dir\\Debug\\\\" /Fd"cmTC_2730e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3az8lr\\Debug\\cmTC_2730e.exe" /INCREMENTAL /ILK:"cmTC_2730e.dir\\Debug\\cmTC_2730e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3az8lr/Debug/cmTC_2730e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3az8lr/Debug/cmTC_2730e.lib" /MACHINE:X64  /machine:x64 cmTC_2730e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_2730e.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3az8lr\\Debug\\cmTC_2730e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2730e.dir\\Debug\\cmTC_2730e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2730e.dir\\Debug\\cmTC_2730e.tlog\\cmTC_2730e.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3az8lr\\cmTC_2730e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Apps/VisualStudio/Shared/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Apps/VisualStudio/Shared/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-a3uzcf"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-a3uzcf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-a3uzcf'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2a928.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.13.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uzcf\\cmTC_2a928.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2a928.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uzcf\\Debug\\".
+          Creating directory "cmTC_2a928.dir\\Debug\\cmTC_2a928.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2a928.dir\\Debug\\cmTC_2a928.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2a928.dir\\Debug\\cmTC_2a928.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a928.dir\\Debug\\\\" /Fd"cmTC_2a928.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a928.dir\\Debug\\\\" /Fd"cmTC_2a928.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uzcf\\Debug\\cmTC_2a928.exe" /INCREMENTAL /ILK:"cmTC_2a928.dir\\Debug\\cmTC_2a928.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-a3uzcf/Debug/cmTC_2a928.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-a3uzcf/Debug/cmTC_2a928.lib" /MACHINE:X64  /machine:x64 cmTC_2a928.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2a928.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uzcf\\Debug\\cmTC_2a928.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2a928.dir\\Debug\\cmTC_2a928.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2a928.dir\\Debug\\cmTC_2a928.tlog\\cmTC_2a928.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uzcf\\cmTC_2a928.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Apps/VisualStudio/Shared/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Apps/VisualStudio/Shared/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "vendored/SDL/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:82 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8222c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.15.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_8222c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8222c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_8222c.dir\\Debug\\cmTC_8222c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8222c.dir\\Debug\\cmTC_8222c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8222c.dir\\Debug\\cmTC_8222c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8222c.dir\\Debug\\\\" /Fd"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8222c.pdb" /external:W1 /Gd /TC /errorReport:queue C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8222c.dir\\Debug\\\\" /Fd"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8222c.pdb" /external:W1 /Gd /TC /errorReport:queue C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+          SDL_detect_arch.c
+        Lib:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8222c.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_8222c.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_8222c.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_8222c.lib
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8222c.dir\\Debug\\cmTC_8222c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8222c.dir\\Debug\\cmTC_8222c.tlog\\cmTC_8222c.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_8222c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:673 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-9luu3r"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-9luu3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-9luu3r'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_52a02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.15.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\cmTC_52a02.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_52a02.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\Debug\\".
+          Creating directory "cmTC_52a02.dir\\Debug\\cmTC_52a02.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_52a02.dir\\Debug\\cmTC_52a02.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_52a02.dir\\Debug\\cmTC_52a02.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52a02.dir\\Debug\\\\" /Fd"cmTC_52a02.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52a02.dir\\Debug\\\\" /Fd"cmTC_52a02.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\src.c"
+          src.c
+        C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\cmTC_52a02.vcxproj]
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\cmTC_52a02.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\cmTC_52a02.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9luu3r\\cmTC_52a02.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:694 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-8yhygj"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-8yhygj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-8yhygj'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_49659.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.16.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\cmTC_49659.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_49659.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\Debug\\".
+          Creating directory "cmTC_49659.dir\\Debug\\cmTC_49659.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_49659.dir\\Debug\\cmTC_49659.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_49659.dir\\Debug\\cmTC_49659.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49659.dir\\Debug\\\\" /Fd"cmTC_49659.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49659.dir\\Debug\\\\" /Fd"cmTC_49659.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\Debug\\cmTC_49659.exe" /INCREMENTAL /ILK:"cmTC_49659.dir\\Debug\\cmTC_49659.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-8yhygj/Debug/cmTC_49659.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-8yhygj/Debug/cmTC_49659.lib" /MACHINE:X64  /machine:x64 cmTC_49659.dir\\Debug\\src.obj
+          cmTC_49659.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\Debug\\cmTC_49659.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_49659.dir\\Debug\\cmTC_49659.tlog\\unsuccessfulbuild".
+          Touching "cmTC_49659.dir\\Debug\\cmTC_49659.tlog\\cmTC_49659.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yhygj\\cmTC_49659.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:715 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-g8syls"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-g8syls"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-g8syls'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_03df4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.17.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\cmTC_03df4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_03df4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\Debug\\".
+          Creating directory "cmTC_03df4.dir\\Debug\\cmTC_03df4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_03df4.dir\\Debug\\cmTC_03df4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_03df4.dir\\Debug\\cmTC_03df4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03df4.dir\\Debug\\\\" /Fd"cmTC_03df4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03df4.dir\\Debug\\\\" /Fd"cmTC_03df4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\Debug\\cmTC_03df4.exe" /INCREMENTAL /ILK:"cmTC_03df4.dir\\Debug\\cmTC_03df4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-g8syls/Debug/cmTC_03df4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-g8syls/Debug/cmTC_03df4.lib" /MACHINE:X64  /machine:x64 cmTC_03df4.dir\\Debug\\src.obj
+          cmTC_03df4.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\Debug\\cmTC_03df4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_03df4.dir\\Debug\\cmTC_03df4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_03df4.dir\\Debug\\cmTC_03df4.tlog\\cmTC_03df4.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g8syls\\cmTC_03df4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:736 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ajw7uw"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ajw7uw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ajw7uw'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_51166.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.18.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\cmTC_51166.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_51166.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\Debug\\".
+          Creating directory "cmTC_51166.dir\\Debug\\cmTC_51166.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_51166.dir\\Debug\\cmTC_51166.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_51166.dir\\Debug\\cmTC_51166.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51166.dir\\Debug\\\\" /Fd"cmTC_51166.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51166.dir\\Debug\\\\" /Fd"cmTC_51166.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\Debug\\cmTC_51166.exe" /INCREMENTAL /ILK:"cmTC_51166.dir\\Debug\\cmTC_51166.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ajw7uw/Debug/cmTC_51166.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ajw7uw/Debug/cmTC_51166.lib" /MACHINE:X64  /machine:x64 cmTC_51166.dir\\Debug\\src.obj
+          cmTC_51166.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\Debug\\cmTC_51166.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_51166.dir\\Debug\\cmTC_51166.tlog\\unsuccessfulbuild".
+          Touching "cmTC_51166.dir\\Debug\\cmTC_51166.tlog\\cmTC_51166.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ajw7uw\\cmTC_51166.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-m1a60o"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-m1a60o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-m1a60o'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a846e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.18.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\cmTC_a846e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a846e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\Debug\\".
+          Creating directory "cmTC_a846e.dir\\Debug\\cmTC_a846e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a846e.dir\\Debug\\cmTC_a846e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a846e.dir\\Debug\\cmTC_a846e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a846e.dir\\Debug\\\\" /Fd"cmTC_a846e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a846e.dir\\Debug\\\\" /Fd"cmTC_a846e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\Debug\\cmTC_a846e.exe" /INCREMENTAL /ILK:"cmTC_a846e.dir\\Debug\\cmTC_a846e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-m1a60o/Debug/cmTC_a846e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-m1a60o/Debug/cmTC_a846e.lib" /MACHINE:X64  /machine:x64 cmTC_a846e.dir\\Debug\\src.obj
+          cmTC_a846e.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\Debug\\cmTC_a846e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a846e.dir\\Debug\\cmTC_a846e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a846e.dir\\Debug\\cmTC_a846e.tlog\\cmTC_a846e.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m1a60o\\cmTC_a846e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:778 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-zuvtty"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-zuvtty"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-zuvtty'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1d1f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.19.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\cmTC_1d1f5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1d1f5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\Debug\\".
+          Creating directory "cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d1f5.dir\\Debug\\\\" /Fd"cmTC_1d1f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d1f5.dir\\Debug\\\\" /Fd"cmTC_1d1f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\Debug\\cmTC_1d1f5.exe" /INCREMENTAL /ILK:"cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-zuvtty/Debug/cmTC_1d1f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-zuvtty/Debug/cmTC_1d1f5.lib" /MACHINE:X64  /machine:x64 cmTC_1d1f5.dir\\Debug\\src.obj
+          cmTC_1d1f5.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\Debug\\cmTC_1d1f5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1d1f5.dir\\Debug\\cmTC_1d1f5.tlog\\cmTC_1d1f5.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuvtty\\cmTC_1d1f5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:801 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-yzqcwt"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-yzqcwt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-yzqcwt'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9a63a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.20.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\cmTC_9a63a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9a63a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\Debug\\".
+          Creating directory "cmTC_9a63a.dir\\Debug\\cmTC_9a63a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9a63a.dir\\Debug\\cmTC_9a63a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9a63a.dir\\Debug\\cmTC_9a63a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a63a.dir\\Debug\\\\" /Fd"cmTC_9a63a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a63a.dir\\Debug\\\\" /Fd"cmTC_9a63a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\Debug\\cmTC_9a63a.exe" /INCREMENTAL /ILK:"cmTC_9a63a.dir\\Debug\\cmTC_9a63a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-yzqcwt/Debug/cmTC_9a63a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-yzqcwt/Debug/cmTC_9a63a.lib" /MACHINE:X64  /machine:x64 cmTC_9a63a.dir\\Debug\\src.obj
+          cmTC_9a63a.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\Debug\\cmTC_9a63a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9a63a.dir\\Debug\\cmTC_9a63a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9a63a.dir\\Debug\\cmTC_9a63a.tlog\\cmTC_9a63a.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzqcwt\\cmTC_9a63a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:822 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-unls9m"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-unls9m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-unls9m'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e4210.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.21.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\cmTC_e4210.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4210.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\Debug\\".
+          Creating directory "cmTC_e4210.dir\\Debug\\cmTC_e4210.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4210.dir\\Debug\\cmTC_e4210.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4210.dir\\Debug\\cmTC_e4210.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4210.dir\\Debug\\\\" /Fd"cmTC_e4210.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4210.dir\\Debug\\\\" /Fd"cmTC_e4210.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\Debug\\cmTC_e4210.exe" /INCREMENTAL /ILK:"cmTC_e4210.dir\\Debug\\cmTC_e4210.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-unls9m/Debug/cmTC_e4210.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-unls9m/Debug/cmTC_e4210.lib" /MACHINE:X64  /machine:x64 cmTC_e4210.dir\\Debug\\src.obj
+          cmTC_e4210.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\Debug\\cmTC_e4210.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e4210.dir\\Debug\\cmTC_e4210.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e4210.dir\\Debug\\cmTC_e4210.tlog\\cmTC_e4210.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-unls9m\\cmTC_e4210.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:843 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-figw2k"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-figw2k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-figw2k'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f40f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.22.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\cmTC_f40f8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f40f8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\Debug\\".
+          Creating directory "cmTC_f40f8.dir\\Debug\\cmTC_f40f8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f40f8.dir\\Debug\\cmTC_f40f8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f40f8.dir\\Debug\\cmTC_f40f8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f40f8.dir\\Debug\\\\" /Fd"cmTC_f40f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f40f8.dir\\Debug\\\\" /Fd"cmTC_f40f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\Debug\\cmTC_f40f8.exe" /INCREMENTAL /ILK:"cmTC_f40f8.dir\\Debug\\cmTC_f40f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-figw2k/Debug/cmTC_f40f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-figw2k/Debug/cmTC_f40f8.lib" /MACHINE:X64  /machine:x64 cmTC_f40f8.dir\\Debug\\src.obj
+          cmTC_f40f8.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\Debug\\cmTC_f40f8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f40f8.dir\\Debug\\cmTC_f40f8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f40f8.dir\\Debug\\cmTC_f40f8.tlog\\cmTC_f40f8.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-figw2k\\cmTC_f40f8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:986 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-2jocvy"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-2jocvy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-2jocvy'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50a32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.23.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\cmTC_50a32.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_50a32.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\Debug\\".
+          Creating directory "cmTC_50a32.dir\\Debug\\cmTC_50a32.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_50a32.dir\\Debug\\cmTC_50a32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_50a32.dir\\Debug\\cmTC_50a32.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50a32.dir\\Debug\\\\" /Fd"cmTC_50a32.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50a32.dir\\Debug\\\\" /Fd"cmTC_50a32.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\Debug\\cmTC_50a32.exe" /INCREMENTAL /ILK:"cmTC_50a32.dir\\Debug\\cmTC_50a32.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-2jocvy/Debug/cmTC_50a32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-2jocvy/Debug/cmTC_50a32.lib" /MACHINE:X64  /machine:x64 cmTC_50a32.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_50a32.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\Debug\\cmTC_50a32.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_50a32.dir\\Debug\\cmTC_50a32.tlog\\unsuccessfulbuild".
+          Touching "cmTC_50a32.dir\\Debug\\cmTC_50a32.tlog\\cmTC_50a32.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jocvy\\cmTC_50a32.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1067 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3yxpeu"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3yxpeu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3yxpeu'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d2d8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.23.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\cmTC_d2d8c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d2d8c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\Debug\\".
+          Creating directory "cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2d8c.dir\\Debug\\\\" /Fd"cmTC_d2d8c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2d8c.dir\\Debug\\\\" /Fd"cmTC_d2d8c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\Debug\\cmTC_d2d8c.exe" /INCREMENTAL /ILK:"cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3yxpeu/Debug/cmTC_d2d8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-3yxpeu/Debug/cmTC_d2d8c.lib" /MACHINE:X64  /machine:x64 cmTC_d2d8c.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_d2d8c.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\Debug\\cmTC_d2d8c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d2d8c.dir\\Debug\\cmTC_d2d8c.tlog\\cmTC_d2d8c.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yxpeu\\cmTC_d2d8c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1067 (check_symbol_exists)"
+    checks:
+      - "Looking for _fseeki64"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-bybhxa"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-bybhxa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "LIBC_HAS__FSEEKI64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-bybhxa'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a9338.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.24.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\cmTC_a9338.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a9338.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\Debug\\".
+          Creating directory "cmTC_a9338.dir\\Debug\\cmTC_a9338.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a9338.dir\\Debug\\cmTC_a9338.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a9338.dir\\Debug\\cmTC_a9338.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9338.dir\\Debug\\\\" /Fd"cmTC_a9338.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9338.dir\\Debug\\\\" /Fd"cmTC_a9338.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\Debug\\cmTC_a9338.exe" /INCREMENTAL /ILK:"cmTC_a9338.dir\\Debug\\cmTC_a9338.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-bybhxa/Debug/cmTC_a9338.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-bybhxa/Debug/cmTC_a9338.lib" /MACHINE:X64  /machine:x64 cmTC_a9338.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_a9338.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\Debug\\cmTC_a9338.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a9338.dir\\Debug\\cmTC_a9338.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a9338.dir\\Debug\\cmTC_a9338.tlog\\cmTC_a9338.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bybhxa\\cmTC_a9338.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:1992 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-6x5ebf"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-6x5ebf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-6x5ebf'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_32fb6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.25.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\cmTC_32fb6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_32fb6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\Debug\\".
+          Creating directory "cmTC_32fb6.dir\\Debug\\cmTC_32fb6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_32fb6.dir\\Debug\\cmTC_32fb6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_32fb6.dir\\Debug\\cmTC_32fb6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32fb6.dir\\Debug\\\\" /Fd"cmTC_32fb6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32fb6.dir\\Debug\\\\" /Fd"cmTC_32fb6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\Debug\\cmTC_32fb6.exe" /INCREMENTAL /ILK:"cmTC_32fb6.dir\\Debug\\cmTC_32fb6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-6x5ebf/Debug/cmTC_32fb6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-6x5ebf/Debug/cmTC_32fb6.lib" /MACHINE:X64  /machine:x64 cmTC_32fb6.dir\\Debug\\src.obj
+          cmTC_32fb6.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\Debug\\cmTC_32fb6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_32fb6.dir\\Debug\\cmTC_32fb6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_32fb6.dir\\Debug\\cmTC_32fb6.tlog\\cmTC_32fb6.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6x5ebf\\cmTC_32fb6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:1998 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-w94p3d"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-w94p3d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-w94p3d'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_66b61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.26.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\cmTC_66b61.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_66b61.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\Debug\\".
+          Creating directory "cmTC_66b61.dir\\Debug\\cmTC_66b61.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_66b61.dir\\Debug\\cmTC_66b61.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_66b61.dir\\Debug\\cmTC_66b61.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66b61.dir\\Debug\\\\" /Fd"cmTC_66b61.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66b61.dir\\Debug\\\\" /Fd"cmTC_66b61.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\Debug\\cmTC_66b61.exe" /INCREMENTAL /ILK:"cmTC_66b61.dir\\Debug\\cmTC_66b61.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-w94p3d/Debug/cmTC_66b61.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-w94p3d/Debug/cmTC_66b61.lib" /MACHINE:X64  /machine:x64 cmTC_66b61.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_66b61.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\Debug\\cmTC_66b61.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_66b61.dir\\Debug\\cmTC_66b61.tlog\\unsuccessfulbuild".
+          Touching "cmTC_66b61.dir\\Debug\\cmTC_66b61.tlog\\cmTC_66b61.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w94p3d\\cmTC_66b61.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:2006 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ybat02"
+      binary: "C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ybat02"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/joona/Documents/Projects/omgne/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ybat02'
+        
+        Run Build Command(s): C:/Apps/VisualStudio/Shared/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5a7af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.8+b34f75857 for .NET Framework
+        Build started 28.5.2025 1.33.27.
+        
+        Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\cmTC_5a7af.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5a7af.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\Debug\\".
+          Creating directory "cmTC_5a7af.dir\\Debug\\cmTC_5a7af.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5a7af.dir\\Debug\\cmTC_5a7af.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5a7af.dir\\Debug\\cmTC_5a7af.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a7af.dir\\Debug\\\\" /Fd"cmTC_5a7af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a7af.dir\\Debug\\\\" /Fd"cmTC_5a7af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\src.c"
+          src.c
+        Link:
+          C:\\Apps\\VisualStudio\\Shared\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\Debug\\cmTC_5a7af.exe" /INCREMENTAL /ILK:"cmTC_5a7af.dir\\Debug\\cmTC_5a7af.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ybat02/Debug/cmTC_5a7af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/CMakeScratch/TryCompile-ybat02/Debug/cmTC_5a7af.lib" /MACHINE:X64  /machine:x64 cmTC_5a7af.dir\\Debug\\src.obj
+          cmTC_5a7af.vcxproj -> C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\Debug\\cmTC_5a7af.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5a7af.dir\\Debug\\cmTC_5a7af.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5a7af.dir\\Debug\\cmTC_5a7af.tlog\\cmTC_5a7af.lastbuildstate".
+        Done Building Project "C:\\Users\\joona\\Documents\\Projects\\omgne\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybat02\\cmTC_5a7af.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.76
+        
+      exitCode: 0
+...
