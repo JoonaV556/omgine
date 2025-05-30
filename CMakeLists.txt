@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
-project(helloSDL)
+project(helloSDL VERSION 0.1 LANGUAGES CXX C)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # set the output directory for built objects.
 # This makes sure that the dynamic library goes into the build directory automatically.
@@ -10,6 +13,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 
 # Create your game executable target as usual
+# note: the WIN32 flag is used to create a GUI application on Windows instead of console app. Ignored on linux and can be left there
 add_executable(helloSDL WIN32 main.cpp)
 
 # Link to the actual SDL3 library.

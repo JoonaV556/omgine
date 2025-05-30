@@ -1,7 +1,3 @@
-- clone & push sdl
-- setup cmake for linux
-
-
 ----------------------- Cmake usage
 setup cmake 
 cmake -S . -B build
