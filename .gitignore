@@ -1,0 +1,5 @@
+# Device specific Cmake cache
+CMakeCache.txt
+
+# cmake build directory
+/build*/

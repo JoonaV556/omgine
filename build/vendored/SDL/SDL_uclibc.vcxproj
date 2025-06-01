@@ -81,7 +81,7 @@
       <AdditionalIncludeDirectories>C:\Users\joona\Documents\Projects\omgne\build\vendored\SDL\include-config-debug\build_config;C:\Users\joona\Documents\Projects\omgne\vendored\SDL\src;C:\Users\joona\Documents\Projects\omgne\vendored\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>

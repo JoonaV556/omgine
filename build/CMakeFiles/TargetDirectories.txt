@@ -1,8 +1,7 @@
-/home/coronal556/Projects/omgne/build/CMakeFiles/helloSDL.dir
-/home/coronal556/Projects/omgne/build/CMakeFiles/edit_cache.dir
-/home/coronal556/Projects/omgne/build/CMakeFiles/rebuild_cache.dir
-/home/coronal556/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/coronal556/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/coronal556/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/coronal556/Projects/omgne/build/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/coronal556/Projects/omgne/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
+C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/helloSDL.dir
+C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/joona/Documents/Projects/omgne/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/joona/Documents/Projects/omgne/build/vendored/SDL/CMakeFiles/ALL_BUILD.dir
