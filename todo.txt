@@ -1,3 +1,10 @@
+-fix opacity problems
+-draw cool character sprite in aseprite
+-render character on screen
+
+small steps 
+- render simple 2d texture in window zoom in and out with mouse scroll 
+
 ----------------------- Cmake usage
 setup cmake 
 cmake -S . -B build

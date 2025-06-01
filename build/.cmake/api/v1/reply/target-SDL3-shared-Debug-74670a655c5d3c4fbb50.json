@@ -32,7 +32,6 @@
 			"target_sources",
 			"sdl_glob_sources",
 			"CheckALSA",
-			"CheckJACK",
 			"CheckPulseAudio",
 			"CheckSNDIO",
 			"CheckX11",
@@ -515,24 +514,6 @@
 				"parent" : 76
 			},
 			{
-				"command" : 22,
-				"file" : 0,
-				"line" : 1594,
-				"parent" : 0
-			},
-			{
-				"command" : 20,
-				"file" : 2,
-				"line" : 218,
-				"parent" : 78
-			},
-			{
-				"command" : 19,
-				"file" : 1,
-				"line" : 11,
-				"parent" : 79
-			},
-			{
 				"command" : 20,
 				"file" : 2,
 				"line" : 151,
@@ -542,7 +523,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 81
+				"parent" : 78
 			},
 			{
 				"command" : 20,
@@ -554,10 +535,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 83
+				"parent" : 80
 			},
 			{
-				"command" : 23,
+				"command" : 22,
 				"file" : 0,
 				"line" : 1596,
 				"parent" : 0
@@ -566,6 +547,24 @@
 				"command" : 20,
 				"file" : 2,
 				"line" : 186,
+				"parent" : 82
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 83
+			},
+			{
+				"command" : 23,
+				"file" : 0,
+				"line" : 1597,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 2,
+				"line" : 250,
 				"parent" : 85
 			},
 			{
@@ -577,24 +576,6 @@
 			{
 				"command" : 24,
 				"file" : 0,
-				"line" : 1597,
-				"parent" : 0
-			},
-			{
-				"command" : 20,
-				"file" : 2,
-				"line" : 250,
-				"parent" : 88
-			},
-			{
-				"command" : 19,
-				"file" : 1,
-				"line" : 11,
-				"parent" : 89
-			},
-			{
-				"command" : 25,
-				"file" : 0,
 				"line" : 1605,
 				"parent" : 0
 			},
@@ -602,13 +583,13 @@
 				"command" : 20,
 				"file" : 2,
 				"line" : 330,
-				"parent" : 91
+				"parent" : 88
 			},
 			{
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 92
+				"parent" : 89
 			},
 			{
 				"command" : 20,
@@ -620,7 +601,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 94
+				"parent" : 91
 			},
 			{
 				"command" : 20,
@@ -632,16 +613,34 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 96
+				"parent" : 93
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
+				"command" : 25,
+				"file" : 2,
+				"line" : 521,
+				"parent" : 95
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 96
+			},
+			{
 				"command" : 26,
+				"file" : 2,
+				"line" : 576,
+				"parent" : 42
+			},
+			{
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 98
@@ -653,13 +652,13 @@
 				"parent" : 99
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 101
@@ -671,13 +670,13 @@
 				"parent" : 102
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 104
@@ -689,13 +688,13 @@
 				"parent" : 105
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 107
@@ -707,13 +706,13 @@
 				"parent" : 108
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 110
@@ -725,13 +724,13 @@
 				"parent" : 111
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 113
@@ -743,13 +742,13 @@
 				"parent" : 114
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 116
@@ -761,13 +760,13 @@
 				"parent" : 117
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 119
@@ -779,13 +778,13 @@
 				"parent" : 120
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 122
@@ -797,13 +796,13 @@
 				"parent" : 123
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 125
@@ -815,13 +814,13 @@
 				"parent" : 126
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 128
@@ -833,13 +832,13 @@
 				"parent" : 129
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 131
@@ -851,13 +850,13 @@
 				"parent" : 132
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 134
@@ -869,13 +868,13 @@
 				"parent" : 135
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 137
@@ -887,13 +886,13 @@
 				"parent" : 138
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 140
@@ -905,13 +904,13 @@
 				"parent" : 141
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 143
@@ -923,13 +922,13 @@
 				"parent" : 144
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 146
@@ -941,13 +940,13 @@
 				"parent" : 147
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 149
@@ -959,13 +958,13 @@
 				"parent" : 150
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 152
@@ -977,13 +976,13 @@
 				"parent" : 153
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 155
@@ -995,13 +994,13 @@
 				"parent" : 156
 			},
 			{
-				"command" : 27,
+				"command" : 26,
 				"file" : 2,
 				"line" : 576,
 				"parent" : 42
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 521,
 				"parent" : 158
@@ -1013,24 +1012,6 @@
 				"parent" : 159
 			},
 			{
-				"command" : 27,
-				"file" : 2,
-				"line" : 576,
-				"parent" : 42
-			},
-			{
-				"command" : 26,
-				"file" : 2,
-				"line" : 521,
-				"parent" : 161
-			},
-			{
-				"command" : 19,
-				"file" : 1,
-				"line" : 23,
-				"parent" : 162
-			},
-			{
 				"command" : 20,
 				"file" : 0,
 				"line" : 1618,
@@ -1040,7 +1021,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 164
+				"parent" : 161
 			},
 			{
 				"command" : 20,
@@ -1052,7 +1033,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 166
+				"parent" : 163
 			},
 			{
 				"command" : 20,
@@ -1064,7 +1045,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 168
+				"parent" : 165
 			},
 			{
 				"command" : 20,
@@ -1076,10 +1057,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 170
+				"parent" : 167
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1755,
 				"parent" : 0
@@ -1088,10 +1069,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 172
+				"parent" : 169
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1763,
 				"parent" : 0
@@ -1100,10 +1081,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 174
+				"parent" : 171
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1767,
 				"parent" : 0
@@ -1112,10 +1093,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 176
+				"parent" : 173
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1771,
 				"parent" : 0
@@ -1124,10 +1105,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 178
+				"parent" : 175
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1779,
 				"parent" : 0
@@ -1136,10 +1117,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 180
+				"parent" : 177
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1807,
 				"parent" : 0
@@ -1148,10 +1129,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 182
+				"parent" : 179
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1811,
 				"parent" : 0
@@ -1160,10 +1141,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 184
+				"parent" : 181
 			},
 			{
-				"command" : 28,
+				"command" : 27,
 				"file" : 0,
 				"line" : 1820,
 				"parent" : 0
@@ -1172,25 +1153,25 @@
 				"command" : 20,
 				"file" : 2,
 				"line" : 1145,
-				"parent" : 186
+				"parent" : 183
 			},
 			{
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 187
+				"parent" : 184
 			},
 			{
 				"command" : 20,
 				"file" : 2,
 				"line" : 1146,
-				"parent" : 186
+				"parent" : 183
 			},
 			{
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 189
+				"parent" : 186
 			},
 			{
 				"command" : 20,
@@ -1202,10 +1183,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 191
+				"parent" : 188
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 940,
 				"parent" : 6
@@ -1214,10 +1195,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 193
+				"parent" : 190
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 2,
 				"line" : 948,
 				"parent" : 6
@@ -1226,7 +1207,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 195
+				"parent" : 192
 			},
 			{
 				"command" : 20,
@@ -1238,7 +1219,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 197
+				"parent" : 194
 			},
 			{
 				"command" : 20,
@@ -1250,7 +1231,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 199
+				"parent" : 196
 			},
 			{
 				"command" : 20,
@@ -1262,7 +1243,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 201
+				"parent" : 198
 			},
 			{
 				"command" : 20,
@@ -1274,7 +1255,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 203
+				"parent" : 200
 			},
 			{
 				"command" : 20,
@@ -1286,7 +1267,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 205
+				"parent" : 202
 			},
 			{
 				"command" : 20,
@@ -1298,10 +1279,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 207
+				"parent" : 204
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 1878,
 				"parent" : 0
@@ -1310,7 +1291,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 209
+				"parent" : 206
 			},
 			{
 				"command" : 20,
@@ -1322,7 +1303,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 211
+				"parent" : 208
 			},
 			{
 				"command" : 20,
@@ -1334,10 +1315,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 213
+				"parent" : 210
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3030,
 				"parent" : 0
@@ -1346,10 +1327,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 215
+				"parent" : 212
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3032,
 				"parent" : 0
@@ -1358,10 +1339,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 217
+				"parent" : 214
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3037,
 				"parent" : 0
@@ -1370,10 +1351,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 219
+				"parent" : 216
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3038,
 				"parent" : 0
@@ -1382,10 +1363,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 221
+				"parent" : 218
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3039,
 				"parent" : 0
@@ -1394,10 +1375,10 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 223
+				"parent" : 220
 			},
 			{
-				"command" : 26,
+				"command" : 25,
 				"file" : 0,
 				"line" : 3053,
 				"parent" : 0
@@ -1406,7 +1387,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 225
+				"parent" : 222
 			},
 			{
 				"command" : 20,
@@ -1418,7 +1399,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 227
+				"parent" : 224
 			},
 			{
 				"command" : 20,
@@ -1430,7 +1411,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 229
+				"parent" : 226
 			},
 			{
 				"command" : 20,
@@ -1442,7 +1423,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 231
+				"parent" : 228
 			},
 			{
 				"command" : 20,
@@ -1454,7 +1435,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 233
+				"parent" : 230
 			},
 			{
 				"command" : 20,
@@ -1466,7 +1447,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 235
+				"parent" : 232
 			},
 			{
 				"command" : 20,
@@ -1478,7 +1459,7 @@
 				"command" : 19,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 237
+				"parent" : 234
 			}
 		]
 	},
@@ -2092,8 +2073,7 @@
 				282,
 				283,
 				284,
-				285,
-				286
+				285
 			]
 		},
 		{
@@ -2600,21 +2580,21 @@
 				282,
 				283,
 				284,
-				285,
-				286
+				285
 			]
 		},
 		{
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				287
+				286
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				287,
 				288,
 				289,
 				290,
@@ -2657,8 +2637,7 @@
 				327,
 				328,
 				329,
-				330,
-				331
+				330
 			]
 		}
 	],
@@ -3535,875 +3514,869 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 80,
-			"compileGroupIndex" : 1,
-			"path" : "vendored/SDL/src/audio/jack/SDL_jackaudio.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 82,
+			"backtrace" : 79,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/audio/pipewire/SDL_pipewire.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 84,
+			"backtrace" : 81,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/camera/pipewire/SDL_camera_pipewire.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 87,
+			"backtrace" : 84,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/audio/pulseaudio/SDL_pulseaudio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 87,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/audio/sndio/SDL_sndioaudio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11clipboard.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11dyn.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11events.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11framebuffer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11keyboard.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11messagebox.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11modes.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11mouse.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11opengl.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11opengles.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11pen.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11settings.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11shape.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11touch.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11video.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11vulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11window.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11xfixes.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11xinput2.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11xsync.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/SDL_x11xtest.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/edid-parse.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 90,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/x11/xsettings-client.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmdyn.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmevents.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmmouse.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmopengles.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/kmsdrm/SDL_kmsdrmvulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandclipboard.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandcolor.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylanddatamanager.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylanddyn.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandevents.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandkeyboard.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandmessagebox.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandmouse.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandopengles.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandshmbuffer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandvideo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandvulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 94,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/wayland/SDL_waylandwindow.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 100,
+			"backtrace" : 97,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 100,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/color-management-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 103,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 109,
+			"backtrace" : 106,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 112,
+			"backtrace" : 109,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 115,
+			"backtrace" : 112,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 115,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 121,
+			"backtrace" : 118,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 124,
+			"backtrace" : 121,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 127,
+			"backtrace" : 124,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 130,
+			"backtrace" : 127,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 133,
+			"backtrace" : 130,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/tablet-v2-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 136,
+			"backtrace" : 133,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 139,
+			"backtrace" : 136,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/viewporter-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 142,
+			"backtrace" : 139,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/wayland-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 145,
+			"backtrace" : 142,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 148,
+			"backtrace" : 145,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 151,
+			"backtrace" : 148,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 154,
+			"backtrace" : 151,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 157,
+			"backtrace" : 154,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 160,
+			"backtrace" : 157,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-shell-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 163,
+			"backtrace" : 160,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/vendored/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 165,
+			"backtrace" : 162,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/tray/unix/SDL_tray.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 167,
+			"backtrace" : 164,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/unix/SDL_appid.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 167,
+			"backtrace" : 164,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/unix/SDL_poll.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 169,
+			"backtrace" : 166,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/camera/v4l2/SDL_camera_v4l2.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 171,
+			"backtrace" : 168,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/haptic/linux/SDL_syshaptic.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 173,
+			"backtrace" : 170,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_dbus.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 173,
+			"backtrace" : 170,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_system_theme.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 173,
+			"backtrace" : 170,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_progressbar.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 175,
+			"backtrace" : 172,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_ime.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 177,
+			"backtrace" : 174,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_ibus.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 179,
+			"backtrace" : 176,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_fcitx.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 181,
+			"backtrace" : 178,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_evdev.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 181,
+			"backtrace" : 178,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_evdev_kbd.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 183,
+			"backtrace" : 180,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/io/io_uring/SDL_asyncio_liburing.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 185,
+			"backtrace" : 182,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_evdev_capabilities.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 185,
+			"backtrace" : 182,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/core/linux/SDL_threadprio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 185,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 190,
+			"backtrace" : 187,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 190,
+			"backtrace" : 187,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 192,
+			"backtrace" : 189,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/joystick/linux/SDL_sysjoystick.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 194,
+			"backtrace" : 191,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_systhread.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 194,
+			"backtrace" : 191,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_sysmutex.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 194,
+			"backtrace" : 191,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_syscond.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 194,
+			"backtrace" : 191,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_sysrwlock.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 194,
+			"backtrace" : 191,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_systls.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 196,
+			"backtrace" : 193,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/thread/pthread/SDL_syssem.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 198,
+			"backtrace" : 195,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/misc/unix/SDL_sysurl.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 200,
+			"backtrace" : 197,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/power/linux/SDL_syspower.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 202,
+			"backtrace" : 199,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/locale/unix/SDL_syslocale.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 204,
+			"backtrace" : 201,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/filesystem/unix/SDL_sysfilesystem.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 206,
+			"backtrace" : 203,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/storage/generic/SDL_genericstorage.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 208,
+			"backtrace" : 205,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/storage/steam/SDL_steamstorage.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 210,
+			"backtrace" : 207,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/filesystem/posix/SDL_sysfsops.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 212,
+			"backtrace" : 209,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/time/unix/SDL_systime.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 214,
+			"backtrace" : 211,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/timer/unix/SDL_systimer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 216,
+			"backtrace" : 213,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/dialog/SDL_dialog.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 218,
+			"backtrace" : 215,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/dialog/SDL_dialog_utils.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 220,
+			"backtrace" : 217,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/dialog/unix/SDL_unixdialog.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 222,
+			"backtrace" : 219,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/dialog/unix/SDL_portaldialog.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 224,
+			"backtrace" : 221,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/dialog/unix/SDL_zenitydialog.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 226,
+			"backtrace" : 223,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/process/SDL_process.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 228,
+			"backtrace" : 225,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/process/posix/SDL_posixprocess.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenevents.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 230,
+			"backtrace" : 227,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 232,
+			"backtrace" : 229,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/tray/SDL_tray_utils.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 234,
+			"backtrace" : 231,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 236,
+			"backtrace" : 233,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/sensor/dummy/SDL_dummysensor.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 238,
+			"backtrace" : 235,
 			"compileGroupIndex" : 1,
 			"path" : "vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c",
 			"sourceGroupIndex" : 0
