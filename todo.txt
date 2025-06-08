@@ -1,5 +1,3 @@
--setup SDL libs as git submodules - remove cloned ones 
-
 -install nasm netwide assembler
 -try building
 

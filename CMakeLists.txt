@@ -22,4 +22,4 @@ add_executable(helloSDL WIN32 main.cpp) # build main app
 # add_executable(texturesSample WIN32 vendored/SDL/examples/renderer/06-textures/textures.c)
 
 # Link to the actual SDL3 library.
-target_link_libraries(helloSDL PRIVATE SDL3::SDL3)
+target_link_libraries(helloSDL PRIVATE SDL3_image::SDL3_image SDL3::SDL3)
