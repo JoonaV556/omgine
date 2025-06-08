@@ -12,6 +12,9 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 # This assumes the SDL source is available in vendored/SDL
 add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 
+# This assumes the SDL_image source is available in vendored/SDL_image
+add_subdirectory(vendored/SDL_image EXCLUDE_FROM_ALL)
+
 # Create your game executable target as usual
 # note: the WIN32 flag is used to create a GUI application on Windows instead of console app. Ignored on linux and can be left there
 add_executable(helloSDL WIN32 main.cpp) # build main app
