@@ -14,7 +14,9 @@ add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 
 # Create your game executable target as usual
 # note: the WIN32 flag is used to create a GUI application on Windows instead of console app. Ignored on linux and can be left there
-add_executable(helloSDL WIN32 main.cpp)
+add_executable(helloSDL WIN32 main.cpp) # build main app
+# build example apps
+# add_executable(texturesSample WIN32 vendored/SDL/examples/renderer/06-textures/textures.c)
 
 # Link to the actual SDL3 library.
 target_link_libraries(helloSDL PRIVATE SDL3::SDL3)

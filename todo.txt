@@ -1,9 +1,6 @@
--fix opacity problems
--draw cool character sprite in aseprite
 -render character on screen
-
-small steps 
-- render simple 2d texture in window zoom in and out with mouse scroll 
+-- import sdl image importers for png files
+-- render character on startup
 
 ----------------------- Cmake usage
 setup cmake 

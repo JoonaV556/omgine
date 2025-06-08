@@ -1,10 +1,21 @@
 {
     "configurations": [
         {
-            "name": "(Windows) Launch",
+            "name": "(Windows) Launch main app",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/hello.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "(Windows) Launch textures example",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/texturesSample.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

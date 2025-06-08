@@ -3,6 +3,7 @@
     "files.associations": {
         "iostream": "cpp",
         "xstring": "cpp",
-        "xiosbase": "c"
+        "xiosbase": "c",
+        "sdl.h": "c"
     }
 }
