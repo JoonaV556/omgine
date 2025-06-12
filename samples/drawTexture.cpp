@@ -7,21 +7,22 @@
 
 using namespace std;
 
+/*
+Showcase of rendering a simple texture
+1. load from file
+2. render on screen
+Also good showcase of SDL error handling / logging
+*/
+
+#define WINDOW_WIDTH 640
+#define WINDOW_HEIGHT 480
+
 /// @brief
 /// @param argc
 /// @param argv
 /// @return
 int main(int argc, char *argv[])
 {
-    // // Print "Hello, World!" to the console
-    // std::cout << "Hello, World!" << std::endl;
-    // string poo;
-    // cin >> poo;
-    // std::cout << "Hi " << poo << std::endl;
-    // string asd;
-    // cin >> asd;
-    // return 0;
-
     // >>>> SDL3 Setup
     // init sdl
     SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO);
@@ -29,29 +30,26 @@ int main(int argc, char *argv[])
     // setup metadata
     SDL_SetAppMetadata("Omgine", "0.0.1", "com.eloisa.omgine");
 
-    // create a window
-    SDL_Window *window = SDL_CreateWindow(
-        "Omgine",
-        800,
-        600,
-        SDL_WINDOW_RESIZABLE);
+    // rendering sutff
+    SDL_Window *window = NULL;   // window is a window
+    SDL_Renderer *rend = NULL;   //
+    SDL_Surface *surface = NULL; // pixel data for manipulation on cpu
+    SDL_Texture *texture = NULL; // pixel data feeded to gpu
 
-    // Check that the window was successfully created
-    if (window == NULL)
+    // create window & renderer
+    if (!SDL_CreateWindowAndRenderer("DrawTexture", WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE, &window, &rend))
     {
-        // In the case that the window could not be made...
-        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Could not create window: %s\n", SDL_GetError());
+        SDL_Log("Couldn't create window/renderer: %s", SDL_GetError());
         return 1;
     }
 
     SDL_LogDebug(SDL_LOG_CATEGORY_TEST, "poopyy");
 
-    // Draw character texture on screen
+    // load image into surface
     SDL_LogDebug(SDL_LOG_CATEGORY_TEST, "%s", std::filesystem::current_path().string().c_str());
     const char *imgPath = "assets/images/blue.png";
-    SDL_Surface *surf = IMG_Load(imgPath);
-
-    if (!surf)
+    surface = IMG_Load(imgPath);
+    if (!surface)
     {
         SDL_LogError(SDL_LOG_CATEGORY_ERROR, "IMG_Load failed: %s\n", SDL_GetError());
         SDL_DestroyWindow(window);
@@ -59,6 +57,36 @@ int main(int argc, char *argv[])
         return 1;
     }
 
+    // poopy
+    SDL_SetDefaultTextureScaleMode(rend, SDL_SCALEMODE_NEAREST);
+
+    // create texture for gpu
+    SDL_SetTextureScaleMode(texture, SDL_SCALEMODE_NEAREST); // :))
+    texture = SDL_CreateTextureFromSurface(rend, surface);
+
+    if (!texture)
+    {
+        SDL_Log("Couldn't create static texture: %s", SDL_GetError());
+        return 1;
+    }
+
+    float textureScale = 10.0f;
+    SDL_FRect rect;
+    rect.x = 0.0f;
+    rect.y = 0.0f;
+    rect.w = (float)surface->w * textureScale;
+    rect.h = (float)surface->h * textureScale;
+
+    SDL_DestroySurface(surface); /* done with this, the texture has a copy of the pixels now. */
+
+    // render texture
+    /* as you can see from this, rendering draws over whatever was drawn before it. */
+    SDL_SetRenderDrawColor(rend, 0, 0, 0, 254); /* black, full alpha */
+    SDL_RenderClear(rend);                      /* start with a blank canvas. */
+    SDL_RenderTexture(rend, texture, nullptr, &rect);
+    SDL_RenderPresent(rend); /* put it all on the screen! */
+
+    // main loop
     bool done = false;
     while (!done)
     {
@@ -76,6 +104,7 @@ int main(int argc, char *argv[])
     }
 
     // Close and destroy the window
+    SDL_DestroyTexture(texture);
     SDL_DestroyWindow(window);
 
     // quit
