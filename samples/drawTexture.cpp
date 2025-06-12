@@ -2,6 +2,8 @@
 #include <string>
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
+#include <SDL3_image/SDL_image.h>
+#include <filesystem>
 
 using namespace std;
 
@@ -39,6 +41,21 @@ int main(int argc, char *argv[])
     {
         // In the case that the window could not be made...
         SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Could not create window: %s\n", SDL_GetError());
+        return 1;
+    }
+
+    SDL_LogDebug(SDL_LOG_CATEGORY_TEST, "poopyy");
+
+    // Draw character texture on screen
+    SDL_LogDebug(SDL_LOG_CATEGORY_TEST, "%s", std::filesystem::current_path().string().c_str());
+    const char *imgPath = "assets/images/blue.png";
+    SDL_Surface *surf = IMG_Load(imgPath);
+
+    if (!surf)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "IMG_Load failed: %s\n", SDL_GetError());
+        SDL_DestroyWindow(window);
+        SDL_Quit();
         return 1;
     }
 

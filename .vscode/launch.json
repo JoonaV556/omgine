@@ -12,16 +12,16 @@
             "console": "externalTerminal"
         },
         {
-            "name": "(Windows) Launch textures example",
+            "name": "(Windows) Launch drawTexture sample",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/texturesSample.exe",
+            "program": "${workspaceFolder}/build/Debug/SAMPLE_DrawTexture.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
-            "console": "externalTerminal"
-        }
+            "console": "integratedTerminal"
+        },
     ],
     "version": "2.0.0"
 }

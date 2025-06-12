@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(helloSDL VERSION 0.1 LANGUAGES CXX C)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # set the output directory for built objects.
