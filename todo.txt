@@ -1,8 +1,31 @@
 - Jungle ambient soundscape loop
+    - Component class
+        - Overridable Start()
+    - AudioSource Component
+        - Bool playOnStart
+        - Bool loop
+        - Audiofile (waw)
+    - Engine CreateComponent function
+        - registers components for updates
+    - Engine Start() function ran before first update
 
 - Render player character in a simple jungle
 
 - Move player around with wasd keys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,3 +69,13 @@ setup cmake
 cmake -S . -B build
 build
 cmake --build build
+
+----------------------- C++ -------------------------------
+// // Print "Hello, World!" to the console
+    // std::cout << "Hello, World!" << std::endl;
+    // string poo;
+    // cin >> poo;
+    // std::cout << "Hi " << poo << std::endl;
+    // string asd;
+    // cin >> asd;
+    // return 0;

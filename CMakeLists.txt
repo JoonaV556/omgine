@@ -15,10 +15,11 @@ add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 # This assumes the SDL_image source is available in vendored/SDL_image
 add_subdirectory(vendored/SDL_image EXCLUDE_FROM_ALL)
 
-# Create your game executable target as usual
+# Create your game executable targes as usual
 # note: the WIN32 flag is used to create a GUI application on Windows instead of console app. Ignored on linux and can be left there
 add_executable(SAMPLE_MainLoopSDL WIN32 samples/mainloop.cpp)
 add_executable(SAMPLE_DrawTexture WIN32 samples/drawTexture.cpp)
+add_executable(SAMPLE_YardDemo WIN32 samples/YardDemo/Game.cpp)
 
 # build example apps
 # add_executable(texturesSample WIN32 vendored/SDL/examples/renderer/06-textures/textures.c)
