@@ -1,8 +1,48 @@
--render character on screen
--- render character on startup
+- Jungle ambient soundscape loop
 
------------------------ Cmake usage
+- Render player character in a simple jungle
+
+- Move player around with wasd keys
+
+
+
+
+
+----------------------- Big Dick --------------------------
+
+* First Step - Home Front Yard demo level
+    * Abstract Features:
+        * Walk around house as the protagonist
+
+    * Technical Features:
+        * SFX
+            * Footstep sounds
+            * Ambient surroundings soundscape
+            * Directional sound effects from far away
+        * Environment collisions
+        * Walk around / Player movement
+        * Player sprite animations 
+            * Turn to walk direction
+            * Walk animation
+
+* Omega: Rebuild
+    * Features:
+        * Survive some time after Omega Seaside Catastrophe
+        * Explore tiny town and surroundings outside Omega Seaside
+        * Rescue citizens 
+        * Establish trust, protect people
+        * Explore and clean up surrounding areas
+        * Establish networks & communication with people in surrounding towns
+        * Re-build economy
+        * Fight hostile forces 
+    * Notes:
+        * Very tiny & simple
+        * Fun without crazy polish
+        * Ambience over anything else
+        * Custom tools for required things (Dear Imgui)
+
+----------------------- Cmake usage -----------------------
 setup cmake 
 cmake -S . -B build
 build
-cmake --build build+
+cmake --build build
