@@ -1,4 +1,7 @@
 - Jungle ambient soundscape loop
+    - Engine class
+        - Start function starts loop
+    - Game creates & starts engine
     - Component class
         - Overridable Start()
     - AudioSource Component
