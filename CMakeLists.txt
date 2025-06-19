@@ -17,9 +17,13 @@ add_subdirectory(vendored/SDL_image EXCLUDE_FROM_ALL)
 
 # Create your game executable targes as usual
 # note: the WIN32 flag is used to create a GUI application on Windows instead of console app. Ignored on linux and can be left there
-add_executable(SAMPLE_MainLoopSDL WIN32 samples/mainloop.cpp)
+add_executable(SAMPLE_MainLoopSDL WIN32 samples/mainLoop.cpp)
 add_executable(SAMPLE_DrawTexture WIN32 samples/drawTexture.cpp)
-add_executable(SAMPLE_YardDemo WIN32 samples/YardDemo/Game.cpp)
+add_executable(SAMPLE_YardDemo WIN32 
+samples/YardDemo/Game.cpp
+samples/YardDemo/Engine.cpp
+samples/YardDemo/Engine.h
+)
 
 # build example apps
 # add_executable(texturesSample WIN32 vendored/SDL/examples/renderer/06-textures/textures.c)
@@ -27,3 +31,5 @@ add_executable(SAMPLE_YardDemo WIN32 samples/YardDemo/Game.cpp)
 # Link to the actual SDL3 library.
 target_link_libraries(SAMPLE_MainLoopSDL PRIVATE SDL3_image::SDL3_image SDL3::SDL3)
 target_link_libraries(SAMPLE_DrawTexture PRIVATE SDL3_image::SDL3_image SDL3::SDL3)
+target_link_libraries(SAMPLE_YardDemo PRIVATE SDL3_image::SDL3_image SDL3::SDL3)
+target_include_directories(SAMPLE_YardDemo PRIVATE samples/YardDemo)

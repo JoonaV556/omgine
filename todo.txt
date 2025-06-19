@@ -1,20 +1,17 @@
-- Jungle ambient soundscape loop
-    - Engine class
-        - Start function starts loop
-    - Game creates & starts engine
-    - Component class
-        - Overridable Start()
-    - AudioSource Component
-        - Bool playOnStart
-        - Bool loop
-        - Audiofile (waw)
-    - Engine CreateComponent function
-        - registers components for updates
-    - Engine Start() function ran before first update
+> Jungle ambient soundscape loop
+    > AudioSource Component - Extends Component
+        > Bool playOnStart
+        > Bool loop
+        > Audiofile (waw)
+        > override OnStart to play on start if playonstart is enabled 
+    > Engine CreateComponent function
+        > registers components for updates
+        > update components etc.
+    > Engine Start() function ran before first update
 
-- Render player character in a simple jungle
+> Render player character in a simple jungle
 
-- Move player around with wasd keys
+> Move player around with wasd keys
 
 
 
@@ -34,9 +31,9 @@
 
 
 
------------------------ Big Dick --------------------------
+> Big Dick >
 
-* First Step - Home Front Yard demo level
+* First Step > Home Front Yard demo level
     * Abstract Features:
         * Walk around house as the protagonist
 
@@ -59,7 +56,7 @@
         * Establish trust, protect people
         * Explore and clean up surrounding areas
         * Establish networks & communication with people in surrounding towns
-        * Re-build economy
+        * Re>build economy
         * Fight hostile forces 
     * Notes:
         * Very tiny & simple
@@ -67,13 +64,13 @@
         * Ambience over anything else
         * Custom tools for required things (Dear Imgui)
 
------------------------ Cmake usage -----------------------
+> Cmake usage >
 setup cmake 
-cmake -S . -B build
+cmake >S . >B build
 build
-cmake --build build
+cmake >build build
 
------------------------ C++ -------------------------------
+> C++ >
 // // Print "Hello, World!" to the console
     // std::cout << "Hello, World!" << std::endl;
     // string poo;
